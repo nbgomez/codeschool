@@ -1,0 +1,6 @@
+*.log
+*.js~
+*.json~
+*.jade~
+node_modules
+bin
