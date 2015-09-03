@@ -24,13 +24,37 @@
 			description:'...',
 			canPurchase:true,
 			soldOut:false
+			reviews: [
+				{
+					stars:5,
+					body: "I love this product",
+					author: "nbg@n.com"
+				},
+				{				
+					stars:1,
+					body: "This product sucks",
+					author: "nbg@n.com"
+				}
+			]
 		},
 		{
 			name:"DOD",
 			price:2.,
 			description:'.......',
 			canPurchase:true,
-			soldOut:false,	
+			soldOut:false,
+			reviews: [
+				{
+					stars:4,
+					body: "I love this product",
+					author: "nbg@n.com"
+				},
+				{				
+					stars:2,
+					body: "This product sucks",
+					author: "nbg@n.com"
+				}
+			]	
 		}
 	]
 

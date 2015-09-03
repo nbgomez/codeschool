@@ -31,6 +31,14 @@
 				<h4>Specification</h4>
 				<p>Specification</p>
 			</div>
+			<div class="panel" ng-show="panel.isSelected(3)">
+				<h4>Reviews</h4>
+				<blockquote ng-repeat="review in product.reviews" >
+					<b>Stars: {{review.stars}} </b>
+					{{review.body}}
+					<cite>by: {{review.author}}</cite>
+				</blockquote>
+			</div>
 			
 		</div>
 		
