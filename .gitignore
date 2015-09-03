@@ -2,5 +2,6 @@
 *.js~
 *.json~
 *.jade~
+*.html~
 node_modules
 bin
