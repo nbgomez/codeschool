@@ -31,6 +31,17 @@
 			templateUrl: 'product-title.html'
 		};
 	});
+	
+	app.directive('productPanels', function () {
+		return {
+			restrict: 'E',
+			templateUrl: 'product-panels.html',
+			controller:function () {
+				
+			},
+			controlerAs:'panels'
+		};
+	});
 
 	var gems= [
 		{
