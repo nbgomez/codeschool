@@ -16,6 +16,13 @@
 			return this.tab === checkTab;
 		};
 	});
+	app.controller( 'ReviewController', function () {
+		this.review = {};
+		
+		this.addReview = function ( product ){
+			product.reviews.push( this.review );
+		};
+	});
 	
 	var gems= [
 		{
@@ -23,7 +30,7 @@
 			price:2.95,
 			description:'...',
 			canPurchase:true,
-			soldOut:false
+			soldOut:false,
 			reviews: [
 				{
 					stars:5,
