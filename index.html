@@ -5,8 +5,7 @@
 	</head>
 	<body ng-controller="StoreController as store">
 		<div ng-repeat="product in store.products">
-			<h1>{{product.name}}</h1>
-			<h2>{{product.price | currency}}</h2>
+			<h2 ng-include"'product-title.html'"></h2>
 			<p>{{product.description}}</p>
 
 			<section ng-controller="PanelController as panel">
